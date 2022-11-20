@@ -2,7 +2,7 @@
 color 0a
 cd ..
 echo BUILDING GAME
-lime build windows -release --times
+lime build windows -release --times --connect 6000
 echo.
 echo done.
 pause
